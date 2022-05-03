@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background: rgb(196, 203, 205);
+  background: linear-gradient(
+    145deg,
+    rgba(196, 203, 205, 1) 45%,
+    rgba(159, 162, 166, 1) 50%,
+    rgba(44, 44, 45, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  background-color: black;
+  width: 170rem;
+  height: 320rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 50rem;
+  border-radius: 15rem;
+}
+.phone {
+  background-image: url(./images/man.jpg);
+  height: 270rem;
+  width: 150rem;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* 
+  margin: auto auto; */
+  position: absolute;
+  top: 25rem;
+  left: 10rem;
+}
+
+.woman {
+  position: absolute;
+  border: 2rem solid white;
+  top: 8rem;
+  left: 80rem;
+  box-shadow: 2rem 2rem 4rem rgb(90, 85, 85);
+}
+.woman img {
+  height: 50rem;
+  width: 55rem;
+  display: block;
+}
+.button {
+  background-color: rgba(255, 0, 0, 0.575);
+  height: 25rem;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  bottom: 0%;
+}
+.button p {
+  text-align: center;
+  font-size: 10rem;
+  color: white;
+  text-transform: uppercase;
+  align-self: center;
+  margin: 7rem;
+}
